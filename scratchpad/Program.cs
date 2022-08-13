@@ -5,7 +5,7 @@ namespace scratchpad
     class Blob //Class Declaration
     {
         public int WeightKg = 1;  //Property
-        public string Name = "tim"; //Property
+        public string Name = "Tim"; //Property
 
         public Blob(string name, int weight) //Constructor (same name as the class and no return type) 
         {
@@ -23,8 +23,8 @@ namespace scratchpad
     {
         static void Main(string[] args)
         {
-            Blob blobvar = new Blob("john",2);
-            Blob blobvar2 = new Blob("tim",1);
+            Blob blobvar = new Blob("adam",4);
+            Blob blobvar2 = new Blob("tim",2);
             Blob blobvar3 = new Blob("abraham",3);
             blobvar.Display();
             blobvar2.Display();
