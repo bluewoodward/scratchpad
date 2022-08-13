@@ -5,7 +5,7 @@ namespace scratchpad
     class Blob //Class Declaration
     {
         public int WeightKg = 1;  //Property
-        public string Name = "Greg"; //Property
+        public string Name = "Greg C"; //Property
 
         public Blob(string name, int weight) //Constructor (same name as the class and no return type) 
         {
