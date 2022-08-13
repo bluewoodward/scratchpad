@@ -23,9 +23,9 @@ namespace scratchpad
     {
         static void Main(string[] args)
         {
-            Blob blobvar = new Blob("adam",4);
-            Blob blobvar2 = new Blob("tim",2);
-            Blob blobvar3 = new Blob("abraham",3);
+            Blob blobvar = new Blob("Adam",4);
+            Blob blobvar2 = new Blob("Tim",2);
+            Blob blobvar3 = new Blob("Abraham",3);
             blobvar.Display();
             blobvar2.Display();
             blobvar3.Display();
